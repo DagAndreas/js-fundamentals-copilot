@@ -46,7 +46,7 @@
 
   ![](./img/test-pass.png)
 
-## Extensions
+<!-- ## Extensions
 
 - Extension exercises can be found in the `src/extensions` directory with corresponding tests in the `spec/extensions` directory.
 
@@ -56,5 +56,9 @@
 
 - Alternatively, run:
 
+<<<<<<< HEAD
   `npm run test-extensions`
 >>>>>>> 69d59f8 (Initial commit)
+=======
+  `npm run test-extensions` -->
+>>>>>>> af81940 (remove extension instructions)
