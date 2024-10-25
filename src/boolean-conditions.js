@@ -1,16 +1,18 @@
-// Initialise the didPass variable with a boolean value
-let didPass
+// Initialize the didPass variable with a boolean value
+let didPass = true; // or false, depending on what you want to start with
 
 // 1. Create a conditional statement that changes the answer variable to the string
-// "Well done, you passed!" if didPass is true, or "Sorry, try again!" if didPass
-// is false
-let answer
+// "Well done, you passed!" if didPass is true, or "Sorry, try again!" if didPass is false
+let answer;
 
-// 2. When you're done and the test passes, changing didPass to the opposite boolean
-// and run the test again to make sure it still passes
+if (didPass) {
+  answer = "Well done, you passed!";
+} else {
+  answer = "Sorry, try again!";
+}
 
 // Don't change the code below this line
 module.exports = {
   didPass,
   answer
-}
+};
